@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition-duration: 5ms;
 }
 
 body, html {
@@ -13,11 +15,12 @@ body, html {
 body {
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 header, footer {
     width: 100vw;
-    min-height: 20vh;
+    min-height: 15vh;
     background-color: #ffb703;
     display: flex;
     flex-direction: column;
@@ -26,7 +29,9 @@ header, footer {
 }
 
 footer {
+    align-content: flex-end;
     justify-content: center;
+    gap: 10px;
 }
 
 nav ul {
@@ -40,7 +45,27 @@ nav ul li a {
     color: white;
 }
 
+a {
+    scroll-behavior: smooth;
+}
+
 a:hover {
+    text-decoration: underline;
+}
+
+.links-contatos {
+    display: flex;
+    gap: 15px;
+    align-content: space-between;
+    list-style-type: none;
+}
+
+.links-contatos a {
+    text-decoration: none;
+    color: white;
+}
+
+.links-contatos a:hover {
     text-decoration: underline;
 }
 
@@ -55,13 +80,22 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin: 20px;
 }
 
-.refris {
+.refris, .sucos, .energeticos, .tonicas {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
+    border: 2px solid rgb(250, 250, 250);
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 4px 0px;
+    border-radius: 10px;
+}
+
+article:hover {
+    scale: 1.02;
+    transform: translateY(15px);
 }
 
 img {
