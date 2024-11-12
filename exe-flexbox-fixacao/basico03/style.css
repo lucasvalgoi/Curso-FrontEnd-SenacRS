@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-between;
+}
