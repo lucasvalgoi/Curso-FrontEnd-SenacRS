@@ -1,0 +1,31 @@
+body {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+      "header header"
+      "sidebar content"
+      "footer footer";
+    grid-gap: 6px
+}
+  
+header {
+    grid-area: header;
+    background-color: aqua;
+}
+  
+nav {
+    grid-area: sidebar;
+    background-color: green;
+}
+  
+main {
+    grid-area: content;
+    background-color: blueviolet;
+}
+  
+footer {
+    grid-area: footer;
+    background-color: cadetblue;
+}
