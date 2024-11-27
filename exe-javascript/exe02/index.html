@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2 - JS</title>
+</head>
+<body>
+    <h1>Exercício - Switch</h1>
+
+    <script>
+        function coverteNota(nota) {
+            switch (nota) {
+                case 0:
+                    return "Você tirou um F";
+                    break;
+                case 1:
+                    return "Você tirou um E";
+                    break;
+                case 2:
+                    return "Você tirou um D";
+                    break;
+                case 3:
+                    return "Você tirou um C";
+                    break;
+                case 4:
+                    return "Você tirou um B";
+                    break;
+                case 5:
+                    return "Você tirou um A";
+                    break;
+                default:
+                    return "Sua nota precisa estar entre 0 e 5"
+                    break;
+            }
+        }
+        console.log(coverteNota(5))
+    </script>
+</body>
+</html>
