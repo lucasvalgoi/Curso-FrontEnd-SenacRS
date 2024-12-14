@@ -18,15 +18,13 @@ Repositório das aulas do Curso de FrontEnd do SenacRS de São Leopoldo, ministr
 # 👨‍💻 Exercícios Práticos
 - Durante as aulas do curso, foram realizados diversos exercícios de fixação do conteúdo, dentre eles, estão destacados três exercícios.
 - ### No primeiro exercício | [Player Top5 Billboard](https://github.com/lucasvalgoi/Curso-FrontEnd-SenacRS/tree/main/aula3)
-   - Nele, foi preciso pôr em prática o que foi ensinado em aula sobre __*Semântica HTML*__, __*Audio no HTML*__ e __*CSS*__.
+   - Mini player que toca as 5 músicas do Top Five da Billboard;
 
 - ### No segundo exercício | [E-commerce](https://github.com/lucasvalgoi/Curso-FrontEnd-SenacRS/tree/main/exeE-commerce)
-- Foi criado uma página web de um E-commerce;
-   - Nele, foi preciso pôr em prática o que foi ensinado em aula sobre __*Semântica HTML*__ e __*CSS Flexbox*__.
+   - Foi criado uma Página web simples de um E-commerce de bebidas estático;
 
 - ### No terceiro exercício | [Pokedex - PokeAPI](https://github.com/lucasvalgoi/Curso-FrontEnd-SenacRS/tree/main/exePokeAPI)
-- Foi criado uma página web de uma Pokedex (Dicionário Pokémon);
-   - Nele, foi preciso pôr em prática o que foi ensinado em aula sobre __*Semântica HTML*__, __*CSS Flexbox*__, __*fetchAPI no JavaScritp*__ e __*Consumo da API da Pokedex (PokeAPI)*__.
+   - Foi criado uma página web de uma Pokedex (Dicionário Pokémon) que usa a PokeAPI para buscar as informações dos Pokémons;
 
 # 🖥️ Projeto Final
 * Para acessar o repositório do Projeto final, basta [clicar aqui](https://github.com/lucasvalgoi/MeuPortifolio)
